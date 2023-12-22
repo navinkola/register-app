@@ -39,6 +39,7 @@ pipeline {
            }
        }
 
+	    /*
        stage("SonarQube Analysis"){
            steps {
 	           script {
@@ -112,4 +113,8 @@ pipeline {
                      mimeType: 'text/html',to: "ashfaque.s510@gmail.com"
       }      
    }
+   */
 }
+}
+}
+
